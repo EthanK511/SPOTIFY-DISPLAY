@@ -6,7 +6,7 @@ This is a versatile controller for Spotify. It uses Wi‑Fi connectivity and the
 
 I made this because I use Spotify a lot and wanted a faster, more tactile way to control my music without always switching back to my computer or phone. I also wanted an excuse to learn more about using the Spotify API, Wi‑Fi connectivity, and hardware like the ESP32 and TFT displays. Finally, I thought it would be a fun Hack Club Stasis project that combines coding, electronics, and 3D design into something I’ll actually use every day.
 
-### Wireing
+### Wiring
 
 
 |TFT pin |Connects to        |Example ESP32 GPIO|Code define |
@@ -57,7 +57,7 @@ void setup() {
 | ----------------------------- | ---------------------------------------- | ---------- | --- | ----------- | ----------- | ----------- |
 | ESP32 C3 Mini V2.1.0 - LOLIN | Micromanage everything else              | $0.99      | 1   | $0.99       | [Aliexpress link](https://www.aliexpress.us/item/3256804553736450.html) | Aliexpress  |
 | Mechanical Keyboard Switches 10PCS | To control the media (Back Next Play Pause) | $4.69      | 1   | $4.69       | [Amazon link](https://www.amazon.com/BlingKingdom-Replacement-Mechanical-Keyboard-Dustproof/dp/B0DSHTPSL3/ref=sr_1_16?crid=13XS1WUOWKTB9&dib=eyJ2IjoiMSJ9.tLOmj71gGpPUR4MxYp04PVoh02kTJfFbmgv5CYDYx-54DUOUt5Z-rei93Z7nU7x5-XkCSqQthhVOcCO-qbj586SolNQdmalEJREyMtLf3f2a1eVwf0w-zAH9p423VZwrz6PWvy7fYb9jF-qDUgAbOE3yAt0O-t1MUJWXal2GpWfKBMXJ2GTDC_H8asPSOAFotC9pYmx75LmKLhLYEnH_sB8jyL9O0MWMpaAAqWmvpL3gvw0BcyE_pzWl-6qvLQsx-jgLmS_pLBvObjQSLWHtIwnUF7qPcFp1w1aEl4EkFUw.CvSvEZyiqpkg2DQJcjo490EaWdtB4wyohpWtK1dGR2Y&dib_tag=se&keywords=Tactile+switches&qid=1773245718&s=electronics&sprefix=tactile+switches%2Celectronics%2C194&sr=1-16) | Amazon     |
-| 1.8" TFT display ST7735       | To display the song info ect             | $8.79      | 1   | $8.79       | [Amazon link](https://www.amazon.com/Bewinner-Resolution-Interface-Full-Color-Controller/dp/B083NYBN4Q) | Amazon      |
+| 1.8" TFT display ST7735       | To display the song info, ect.             | $8.79      | 1   | $8.79       | [Amazon link](https://www.amazon.com/Bewinner-Resolution-Interface-Full-Color-Controller/dp/B083NYBN4Q) | Amazon      |
 |                               |                                          |            |     | $14.47      |             |             |
 
 ### Photos
