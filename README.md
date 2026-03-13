@@ -13,11 +13,11 @@ I made this because I use Spotify a lot and wanted a faster, more tactile way to
 |----------------------|-------------------|------------------|------------|
 |VCC / 3V3             |3.3V               |3V3 pin           |–           |
 |GND                   |GND                |GND pin           |–           |
-|SCK / SCL             |SPI clock          |GPIO7             |`TFT_SCLK 7`|
+|SCK / SCL             |SPI clock          |GPIO6             |`TFT_SCLK 7`|
 |SDA / MOSI            |SPI MOSI           |GPIO2             |`TFT_MOSI 2`|
 |CS                    |Chip select        |GPIO4             |`TFT_CS 4`  |
 |DC / D/C              |Data/command select|GPIO5             |`TFT_DC 5`  |
-|RST / RES             |Reset              |GPIO6             |`TFT_RST 6` |
+|RST / RES             |Reset              |GPIO3             |`TFT_RST 6` |
 |LED / BL (backlight)  |3.3V (or through R)|3V3 pin           |–           |
 
 ```cpp
@@ -31,7 +31,7 @@ I made this because I use Spotify a lot and wanted a faster, more tactile way to
 |Button|One leg → ESP32 GPIO|Other leg →|Code name       |
 |------|--------------------|-----------|----------------|
 |1     |GPIO8               |GND        |`BUTTON1_PIN 8` |
-|2     |GPIO9               |GND        |`BUTTON2_PIN 9` |
+|2     |GPIO7               |GND        |`BUTTON2_PIN 9` |
 |3     |GPIO10              |GND        |`BUTTON3_PIN 10`|
 
 ```cpp
@@ -45,6 +45,7 @@ void setup() {
   pinMode(BUTTON3_PIN, INPUT_PULLUP);
 }
 ```
+<img width="2500" height="1484" alt="Untitled drawing" src="https://github.com/user-attachments/assets/dbe3ab95-edc0-425c-a9a5-a7462c22ce3e" />
 
 ### Cad Files
 
